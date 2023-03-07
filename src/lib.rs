@@ -47,5 +47,14 @@ mod exercise_module {
         //   "blah {} blah" -> for instantiator_name and instantiated_at
         //   "blah {:?} blah" -> for the favorite_vegeratable. This is different notation than the other variables because
         //     the enum has a Debug implementation but not a Display one
+
+        pub fn log_data(&self) {
+            error!(
+                "Instantianted at epoch {} by {}",
+                self.instantiated_at, self.instantiator_name
+            );
+
+            debug!("Favorite vegatable is {:?}", self.favorite_vegetable);
+        }
     }
 }
