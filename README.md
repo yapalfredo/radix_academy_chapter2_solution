@@ -1,3 +1,3 @@
-# RadiX Academy Chapter 2
+# RadiX Academy Chapter 2 
 
-Solution to exercise 1
+- Solution to exercise 1
